@@ -8,6 +8,7 @@ import currentcy as crate
 rate = crate.currentcy_rate(FROM, TO, multiplier)
 ```
 *The `multiplier` default is 1* 
+
 Eg.
 ```
 currentcy_rate("USD", "AUD", 35)
